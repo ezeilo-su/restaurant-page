@@ -1,0 +1,97 @@
+$body-color: rgba(85, 85, 85, 0.534);
+
+body {
+  margin: 0;
+  background-color: $body-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+  .topnav {
+    overflow: hidden;
+    margin: auto 30px;
+    background-color: #333;
+
+    a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+      &:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      &.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+    }
+  }
+
+  .page {
+    margin: auto;
+    max-width: 70%;
+
+    .page-heading {
+      color: green;
+      text-align: center;
+    }
+
+    .main-page  {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+
+      .dish1,
+      .dish2,
+      .dish3,
+      .dish4,
+      .dish5,
+      .dish6 {
+        width: 32%;
+        height: 32vh;
+        margin-bottom: 2%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 20% 0 20%;
+
+        h3.dish-name {
+          position: absolute;
+          bottom: -8px;
+          padding-left: 15px;
+        }
+      }
+
+      .dish1 {
+        background-image: url("./images/dish1.jpeg");
+      }
+      
+      .dish2 {
+        background-image: url("./images/dish2.jpeg");
+      }
+      
+      .dish3 {
+        background-image: url("./images/dish3.jpeg");
+      }
+      
+      .dish4 {
+        background-image: url("./images/dish4.jpeg");
+      }
+      
+      .dish5 {
+        background-image: url("./images/dish5.jpeg");
+      }
+      
+      .dish6 {
+        background-image: url("./images/dish6.jpeg");
+      }
+    }
+  }
+}
