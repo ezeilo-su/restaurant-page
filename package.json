@@ -1,0 +1,33 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Microverse Restaurant Page Project",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezeilo-su/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezeilo-su/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/ezeilo-su/restaurant-page#readme"
+}
