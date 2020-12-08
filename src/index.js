@@ -1,8 +1,6 @@
 import './style.scss';
 import Menu from './menu-page';
 import Contact from './contact-page';
-// import { createHeader } from "./create-header";
-
 
 const page = document.getElementById('content');
 
