@@ -25,6 +25,7 @@
 
 * Open the file ```dist/index.html``` file with a web browser to run the app.
 
+## Check out live demo [here](https://elastic-goodall-394d0c.netlify.app/)
 
 ###  Project screenshot:
 
